@@ -1,0 +1,134 @@
+#head{
+    height: 40px;
+    border-radius:5px ;
+    margin-right: 20px;
+}
+#heading{
+    display: flex;
+    align-items: center;
+   background-color: black;
+   color: aliceblue;
+   padding-left: 180px;
+   height: 60px;
+}
+.mapouter:hover{
+
+    cursor: pointer;
+}
+#container:hover{
+
+cursor: pointer;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+  
+}
+    
+   
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;}
+ #hittu{
+  
+   margin:auto;
+   display: flex;
+   justify-content: space-between;
+   width:80%;
+   
+   font-size: 36px;
+}
+#container{
+    width: 400px;
+    height: 380px;
+    font-size: 24px;
+     font-weight: bolder;
+    color: black;
+    text-align: center ;
+    border-radius: 10px;
+
+    
+}
+#container>div{
+    display: flex;
+    margin-top: 20px;
+}
+#container>div>div{
+    margin-left: 20px;
+}
+
+
+#upper{
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 50px;
+}
+body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://media.istockphoto.com/photos/beautiful-meadow-field-with-fresh-grass-and-yellow-dandelion-flowers-picture-id1301592082?b=1&k=20&m=1301592082&s=170667a&w=0&h=i3f9oPDdUoEQ9FE-vD2VQyQ9T-v2ODr-VIKrGDu3Tfw=');
+  }
+#get{
+    padding: 5px 25px 5px 25px;
+    font-size: larger;
+    border-radius:5px ;
+    background-color:black;
+    color: aliceblue;
+    border: none;
+ 
+}
+#submit{
+    padding: 5px 25px 5px 25px;
+    font-size: larger;
+    border-radius:5px ;
+    background-color:black;
+    color: aliceblue;
+    border: none;
+    margin-left: -300px;
+}
+#get:hover{
+    border: 1px solid white;
+    color: red;
+    cursor: pointer;
+}
+#submit:hover{
+    border: 1px solid white;
+    color: red;
+    cursor: pointer;
+}
+#city{
+    font-size: larger;
+    border-radius:5px ;
+    background-color:black;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+#container2{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto;
+ 
+}
+#container2>div{
+text-align: center;
+border: 1px solid rgb(75, 73, 73);
+background-color: rgb(41, 40, 40);
+color:white;
+border-radius: 0px 0px 10px 10px;
+}
+#container2>div:hover{
+    background-color: rgb(108, 106, 106);
+}
+#forcast{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
